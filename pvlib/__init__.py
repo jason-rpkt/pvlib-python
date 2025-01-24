@@ -1,3 +1,6 @@
+import sys
+from pathlib import Path
+sys.path.append(Path(__file__).parent)
 from pvlib.version import __version__  # noqa: F401
 
 from pvlib import (  # noqa: F401
